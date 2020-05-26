@@ -1,12 +1,12 @@
 import numpy as np
 import cv2
-import urllib.request
+import urllib.request 
 
 ESC = 27
 SPACE = 32
 CHECKERBOARD_SIZE = (4, 6)
 
-URL = "http://192.168.0.101:8080/shot.jpg"
+URL = "http://192.168.0.100:8080/shot.jpg"
 useIPcam = True
 
 cap = None

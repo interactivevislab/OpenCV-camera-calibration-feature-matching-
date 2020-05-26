@@ -3,8 +3,8 @@ import cv2
 #we need these to connect to IP cam
 import urllib.request
 import numpy as np
-URL = "http://192.168.0.101:8080/shot.jpg"
-useIPcam = False
+URL = "http://192.168.0.100:8080/shot.jpg"
+useIPcam = True
 
 
 if not useIPcam:
